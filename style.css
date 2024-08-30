@@ -1,0 +1,138 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Karantina:wght@300;400;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", system-ui;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 50px;
+    z-index: 1;
+    position: relative;
+}
+.logo{
+    font-family: "Jockey One", sans-serif;
+    color: #000;
+    font-size: 30px;
+}
+nav button{
+    background: #EFEC23;
+    padding: 16px 36px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+
+
+#banner{
+    background: #2496C8;
+    height: 105vh;
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+}
+.banner-content{
+    height: 100%;
+}
+.banner-content h1{
+    font-size: 140px;
+    text-align: center;
+    font-family: "Karantina", system-ui;
+    color: #fff;
+    padding-top: 100px;
+}
+.banner-para-content{
+    display: flex;
+    justify-content: end;
+    padding: 40px 0;
+}
+.banner-para{
+    width: 32%;
+    color: #fff;
+}
+.banner-para p{
+    line-height: 24px;
+    font-size: 18px;
+}
+.effect{
+    position: absolute;
+    z-index: 0.5;
+}
+.top-right-tree{
+    top: -30px;
+    right: -40px;
+}
+.top-left-tree{
+    top: -30px;
+    left: -10px;
+}
+.banner-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.banner-img-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.banner-fast-img{
+    position: relative;
+    width: 30%;
+}
+.banner-fast-img img{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+}
+.banner-fast-img img:nth-child(1){
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner-second-img{
+    width: 40%;
+}
+.banner-second-img img{
+    position: relative;
+    bottom: -50px;
+    left: 50%;
+    width: 125%;
+    transform: translateX(-50%);
+}
+.banner-third-img{
+    width: 30%;
+}
+.banner-third-img img{
+    position: relative;
+    bottom: -60px;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+#s-monkey{
+    height: 100vh;
+    width: 100%;
+    background: #EFEC23;
+}
